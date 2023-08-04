@@ -4,10 +4,12 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +26,19 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 500px;
+  inset: 15% auto 10% 65%;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.backgroundBox {
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  inset: auto 0 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
